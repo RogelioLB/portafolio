@@ -5,7 +5,7 @@ export const useProjects = () =>{
     const [loaded,setLoaded] = useState(false);
 
     useEffect(()=>{
-        fetch("/api/projects").then(res=>res.json()).then(res=>{
+        fetch("https://rogelio-lopez.herokuapp.com/proyectos").then(res=>res.json()).then(res=>{
             setProjects(res);
             setLoaded(true);
         })
