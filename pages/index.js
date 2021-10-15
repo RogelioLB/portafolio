@@ -26,6 +26,7 @@ export default function Home() {
       <Head>
         <title>Rogelio López | FullStackJS Developer</title>
       </Head>
+      <NavBar />
       <Profile refs={{ card, svg }} />
       <div className="container" style={{ marginTop: height }}>
         <Card title="Services" id="services">
@@ -45,13 +46,13 @@ export default function Home() {
         @media (min-width: 690px) {
           div.container {
             padding: 20px;
+            margin:0;
           }
           div.container > :global(.card) {
             margin-bottom:20px;
           }
         }
       `}</style>
-      <NavBar />
     </>
   );
 }

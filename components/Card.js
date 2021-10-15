@@ -36,6 +36,7 @@ const Card = forwardRef(
             width: 80%;
             height: 4px;
             background: var(--blue);
+            border-radius:20px;
           }
         `}</style>
       </section>

@@ -98,6 +98,16 @@ const NavBar = () => {
         h3 {
           font-size: 16px;
         }
+
+        @media (min-width:690px){
+          nav{
+            width:100%;
+            top:0;
+            border-radius:0;
+            bottom:unset;
+            z-index:2;
+          }
+        }
       `}</style>
     </nav>
   );
