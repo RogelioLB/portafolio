@@ -1,0 +1,27 @@
+.container{
+    background-color: var(--white);
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar{
+    width:clamp(65px,25vw,140px);
+    height:clamp(65px,25vw,140px);
+    border-radius:50%;
+    overflow: hidden;
+}
+
+.svg{
+    width:100%;
+}
+
+@media (min-width:680px){
+    .container{
+        justify-content: space-evenly;
+    }
+}
+
+.link:hover path{
+    fill:var(--blue);
+}
