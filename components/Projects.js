@@ -17,6 +17,7 @@ const Projects = () => {
                 gap:30px;
                 justify-content:space-between;
                 flex-direction:column;
+                flex-wrap:wrap;
             }    
             @media (min-width:690px){
                 div.projects-container{
