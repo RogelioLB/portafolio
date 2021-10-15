@@ -18,7 +18,7 @@ export default function Home() {
   },[])
   
   return (
-    <div>
+    <>
       <Profile refs={{card,svg}}/>
       <div className="container" style={{marginTop:height}}>
         <Card title="Services" id="services" type="section">
@@ -33,6 +33,6 @@ export default function Home() {
       }
       `}</style>
       <NavBar />
-    </div>
+    </>
   )
 }

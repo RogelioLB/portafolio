@@ -4,7 +4,7 @@ import Card from './Card'
 
 const Service = ({title,icon,children}) => {
     return (
-        <Card blur={true}>
+        <Card>
             <h3>{title}</h3>
             <div className="icon-container">
                 <FontAwesomeIcon icon={icon} size="3x" style={{boxSizing:"content-box",backgroundColor:"var(--blue)",color:"var(--white)",width:"48px",height:"48px",padding:"10px",borderRadius:"50%"}}/>
