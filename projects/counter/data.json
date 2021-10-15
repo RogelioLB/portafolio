@@ -1,0 +1,8 @@
+{
+  "title": "Counter Single Page",
+  "description": "A simple page that counts down the time remaining for a date, I did this in order to complete a challenge in Front-End Mentor. And with this I learned the handling of dates with JavaScript.",
+  "tags":["JavaScript","HTML","CSS"],
+  "repo":"https://github.com/RogelioLB/launch-count",
+  "demo":"https://cranky-turing-557c79.netlify.app/",
+  "image":"/counter.jpg"
+}

@@ -13,7 +13,13 @@ const Services = () => {
             personalized. Creation of blogs, personal pages, landing pages, etc.
           </p>
         </Service>
-        <Service title="Web Design" icon={faPencilRuler}></Service>
+        <Service title="Web Design" icon={faPencilRuler}>
+          <p>
+            Design of your website completely responsive, elegant, minimalist,
+            pleasing to the eye. I can assure you that your design will be what
+            you are looking for.
+          </p>
+        </Service>
       </Card>
       <style jsx>{`
         div :global(.services) {

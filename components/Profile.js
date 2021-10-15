@@ -8,6 +8,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faFacebook, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 import Link from "next/link";
 import { forwardRef } from "react";
+import Social from "./Social";
 
 const Profile = forwardRef(({refs},ref) => {
     return (
@@ -19,11 +20,7 @@ const Profile = forwardRef(({refs},ref) => {
                 <div className={ProfileCss.text}>
                     <h2>Rogelio López</h2>
                     <h2><span>FullStackJS</span> Developer</h2>
-                    <div className="social">
-                        <Link href="https://www.linkedin.com/in/rogeliolb"><a target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" className={ProfileCss.link}/></a></Link>
-                        <Link href="https://www.facebook.com/rogelio.lb.3"><a target="_blank"><FontAwesomeIcon icon={faFacebook} size="2x" className={ProfileCss.link}/></a></Link>
-                        <Link href="https://www.instagram.com/lbrogelio"><a target="_blank"><FontAwesomeIcon icon={faInstagram} size="2x" className={ProfileCss.link}/></a></Link>
-                    </div>
+                    <Social />
                 </div>
             </div>
             <Card title="About me" style={{position:"absolute",zIndex:1}} blur={true} ref={refs.card}>
@@ -38,12 +35,6 @@ const Profile = forwardRef(({refs},ref) => {
                 h2{
                     text-align:center;
                     font-size:clamp(19px,3.5vw,28px);
-                }
-                div.social{
-                    display:flex;
-                    align-items:center;
-                    justify-content:space-between;
-                    padding:10px;
                 }
                 p{
                     font-size:clamp(18px,2vw,26px);
