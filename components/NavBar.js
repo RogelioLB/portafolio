@@ -61,19 +61,18 @@ const NavBar = () => {
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          flex:1;
           position: relative;
-          flex: 1;
           transition: 0.2s all ease;
         }
-
         a:after {
           position: absolute;
           content: "";
           width: 0px;
-          height: 0px;
+          height: 10px;
           background: var(--blue);
           bottom: -10px;
-          border-radius: 50%;
+          border-radius:10px;
           transition: 0.4s all ease;
         }
 
@@ -84,16 +83,15 @@ const NavBar = () => {
         a.active:after {
           position: absolute;
           content: "";
-          width: 10px;
+          width: 100%;
           height: 10px;
           background: var(--blue);
           bottom: -10px;
-          border-radius: 50%;
         }
 
         a :global(svg) {
-          width: 32px !important;
-          height: 32px;
+          width: 28px !important;
+          height: 28px;
         }
         h3 {
           font-size: 16px;

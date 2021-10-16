@@ -14,7 +14,7 @@ const Projects = () => {
             <style jsx>{`
             div.projects-container{
                 display:flex;
-                gap:30px;
+                gap:50px;
                 justify-content:space-between;
                 flex-direction:column;
                 flex-wrap:wrap;

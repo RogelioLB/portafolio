@@ -5,7 +5,6 @@ import Profile from "../components/Profile";
 import Services from "../components/Services";
 import Head from "next/head";
 import Projects from "../components/Projects";
-import Social from "../components/Social";
 import Contact from "../components/Contact";
 
 export default function Home() {
@@ -24,6 +23,8 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta name="description" content="de"></meta>
+        <meta name="keywords" contnet=""></meta>
         <title>Rogelio López | FullStackJS Developer</title>
       </Head>
       <NavBar />

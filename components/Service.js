@@ -18,6 +18,7 @@ const Service = ({ title, icon, children }) => {
             height: "48px",
             padding: "10px",
             borderRadius: "50%",
+            margin: "5px"
           }}
         />
       </div>
