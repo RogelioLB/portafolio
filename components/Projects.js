@@ -7,21 +7,31 @@ const Projects = () => {
     return (
         <div className="projects-container">
             {
-                loaded && projects.map((project,id)=>(
-                    <Project {...project} key={id}/>
-                ))
+                loaded && projects.map((project,id)=>{
+                    if(id===0)return(
+                        <div className="absolute">
+                            <Project {...project} key={id}/>
+                        </div>
+                    )
+                    else return (
+                        <Project {...project} key={id}/>
+                    )
+                })
             }
             <style jsx>{`
             div.projects-container{
                 display:flex;
-                gap:50px;
+                gap:30px;
                 justify-content:space-between;
                 flex-direction:column;
                 flex-wrap:wrap;
-            }    
+            }   
             @media (min-width:690px){
                 div.projects-container{
                     flex-direction:row;
+                }
+                div.absolute :global(img){
+                    height:400px;
                 }
             }
             `}</style>

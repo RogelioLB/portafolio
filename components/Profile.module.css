@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .avatar{
     width:clamp(65px,25vw,140px);
     height:clamp(65px,25vw,140px);

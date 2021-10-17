@@ -23,8 +23,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta name="description" content="de"></meta>
-        <meta name="keywords" contnet=""></meta>
+        <meta name="description" content=""></meta>
+        <meta name="keywords" contnet="fullstack,js,developer,desarrollador,javascript,rogelio,Rogelio,react,nextjs,next,fullstackjs,github"></meta>
         <title>Rogelio López | FullStackJS Developer</title>
       </Head>
       <NavBar />

@@ -80,6 +80,7 @@ const Project = ({ title, description, image, tags, repo, demo }) => {
           display: flex;
           gap: 10px;
           align-items: flex-end;
+          flex-wrap:wrap;
         }
 
         div.project-tags h4 {
@@ -111,6 +112,12 @@ const Project = ({ title, description, image, tags, repo, demo }) => {
           display: flex;
           gap: 5px;
           align-items: center;
+        }
+
+        @media (min-width:690px){
+          div.project-tags{
+            flex-wrap:nowrap;
+          }
         }
       `}</style>
     </div>

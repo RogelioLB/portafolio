@@ -5,7 +5,7 @@ export const useFocus = (refs) => {
     Array.from(sections).some((section) => {
       const sectionTop = section.offsetTop;
       const id = section.getAttribute("id");
-      if (sectionTop+300>= scrollY && id) {
+      if (sectionTop+100>= scrollY && id) {
         current = id;
         return true;
       }
