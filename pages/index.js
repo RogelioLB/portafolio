@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta name="description" content=""></meta>
+        <meta name="description" content="Hello I'm an FullStackJS Developer, specialized in FrontEnd with React or NextJS, Want to know in what i have worked? Well this is my portfolio, where i show you my projects."></meta>
         <meta name="keywords" contnet="fullstack,js,developer,desarrollador,javascript,rogelio,Rogelio,react,nextjs,next,fullstackjs,github"></meta>
         <title>Rogelio López | FullStackJS Developer</title>
       </Head>
