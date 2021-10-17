@@ -105,6 +105,13 @@ const NavBar = () => {
             bottom:unset;
             z-index:2;
           }
+          a:after{
+            height:0px;
+          }
+          a.active:after{
+            width:10px;
+            border-radius:50%;
+          }
         }
       `}</style>
     </nav>

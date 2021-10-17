@@ -4,7 +4,7 @@ const Card = forwardRef(
   ({ title, blur, children, style, id, className }, ref) => {
     return (
       <section
-        className={`card ${className}`}
+        className={`card ${className ? className : ""}`}
         style={style}
         id={id ? id : null}
         ref={ref}

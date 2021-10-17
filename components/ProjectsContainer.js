@@ -9,8 +9,8 @@ const Projects = () => {
             {
                 loaded && projects.map((project,id)=>{
                     if(id===0)return(
-                        <div className="absolute">
-                            <Project {...project} key={id}/>
+                        <div className="absolute" key={id}>
+                            <Project {...project}/>
                         </div>
                     )
                     else return (

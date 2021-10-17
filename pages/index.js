@@ -4,8 +4,9 @@ import NavBar from "../components/NavBar";
 import Profile from "../components/Profile";
 import Services from "../components/Services";
 import Head from "next/head";
-import Projects from "../components/Projects";
+import Projects from "../components/ProjectsContainer";
 import Contact from "../components/Contact";
+import SkillsContainer from "../components/SkillsContainer";
 
 export default function Home() {
   const [height, setHeight] = useState(null);
@@ -35,6 +36,9 @@ export default function Home() {
         </Card>
         <Card title="Projects" id="projects">
           <Projects />
+        </Card>
+        <Card title="Skills" id="projects">
+          <SkillsContainer />
         </Card>
         <Card title="Get in touch with me" id="contact">
           <Contact />
