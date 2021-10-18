@@ -32,6 +32,7 @@ const Projects = () => {
                 }
                 div.absolute :global(img){
                     height:400px;
+                    object-fit:contain;
                 }
             }
             `}</style>

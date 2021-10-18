@@ -1,0 +1,10 @@
+{
+    "title": "NoNameWeb",
+    "description": "I created this website with the purpose of working as a team, together with 2 more colleagues, I was absolutely in charge of the Front-End, and it was a good experience to better use Git.",
+    "tags":["JavaScript","FrontEnd","React"],
+    "repo":"https://github.com/RogelioLB/No-Name/tree/rogelio",
+    "demo":"https://no-name-web.netlify.app/",
+    "image":"/noname.png",
+    "important":true
+  }
+  

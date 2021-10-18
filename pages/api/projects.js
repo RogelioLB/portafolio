@@ -1,7 +1,5 @@
 import fs from "fs";
 import path from "path";
-import getConfig from "next/config"
-const {serverRuntimeConfig} = getConfig()
 
 export default (req,res)=>{
     const dirname = path.resolve(process.cwd(),"./public/projects")
@@ -14,6 +12,7 @@ export default (req,res)=>{
         }catch(err){
             return {err}
         }
-    })
+    }).sort((a,b)=>b.important-a.important);
+    console.log(data)
     return res.json(data)
 }

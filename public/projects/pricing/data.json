@@ -4,5 +4,6 @@
     "tags":["JavaScript","HTML","CSS"],
     "repo":"https://github.com/RogelioLB/Frontend-Mentor-Interactive-pricing-component",
     "demo":"https://practical-davinci-1d8e1e.netlify.app/",
-    "image":"/trafic.jpg"
+    "image":"/trafic.jpg",
+    "important":false
 }
