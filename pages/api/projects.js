@@ -4,7 +4,7 @@ import getConfig from "next/config"
 const {serverRuntimeConfig} = getConfig()
 
 export default (req,res)=>{
-    /*const dirname = path.resolve(serverRuntimeConfig.PROJECT_ROOT,"./public/projects")
+    const dirname = path.resolve(process.cwd(),"./public/projects")
     const directories = fs.readdirSync(dirname);
     const data = directories.map((el)=>{
         try{
@@ -14,6 +14,6 @@ export default (req,res)=>{
         }catch(err){
             return {err}
         }
-    })*/
-    return res.json({root:serverRuntimeConfig.PROJECT_ROOT,dir:__dirname,process:process.cwd()})
+    })
+    return res.json(data)
 }
