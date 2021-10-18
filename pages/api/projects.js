@@ -10,7 +10,7 @@ export default (req,res)=>{
             const json = JSON.parse(data);
             return json
         }catch(err){
-            return {}
+            return {err}
         }
     })
     return res.json(data)
