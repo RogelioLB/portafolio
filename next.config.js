@@ -4,6 +4,6 @@ module.exports = {
     domains:["i.ibb.co"]
   },
   serverRuntimeConfig: {
-      PROJECT_ROOT: __dirname
+      PROJECT_ROOT: process.cwd()
   }
 }
