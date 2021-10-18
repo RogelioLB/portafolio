@@ -15,5 +15,5 @@ export default (req,res)=>{
             return {err}
         }
     })*/
-    return res.json({root:serverRuntimeConfig.PROJECT_ROOT,dir:__dirname})
+    return res.json({root:serverRuntimeConfig.PROJECT_ROOT,dir:__dirname,process:process.cwd()})
 }
