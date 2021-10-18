@@ -5,7 +5,7 @@ const {serverRuntimeConfig} = getConfig()
 
 export default (req,res)=>{
     console.log(serverRuntimeConfig.PROJECT_ROOT)
-    const dirname = path.resolve(serverRuntimeConfig.PROJECT_ROOT,"./projects")
+    /*const dirname = path.resolve(serverRuntimeConfig.PROJECT_ROOT,"./projects")
     const directories = fs.readdirSync(dirname);
     const data = directories.map((el)=>{
         try{
@@ -15,6 +15,6 @@ export default (req,res)=>{
         }catch(err){
             return {err}
         }
-    })
-    return res.json(data)
+    })*/
+    return res.json({root:serverRuntimeConfig.PROJECT_ROOT,dir:fs.readdirSync(serverRuntimeConfig.PROJECT_ROOT)})
 }
