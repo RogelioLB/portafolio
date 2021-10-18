@@ -5,5 +5,6 @@ module.exports = {
   },
   serverRuntimeConfig: {
       PROJECT_ROOT: process.cwd()
-  }
+  },
+  experimental: { nftTracing: true }
 }
